@@ -129,9 +129,9 @@ model.classifier[1] = torch.nn.Linear(num_ftrs, 20)
 
 ## Resultados
 
-- **Clasificadores Lineales:** Precisión inicial aproximada del 26%.
+- **Clasificadores Lineales:** Precisión inicial aproximada del 25%.
 - **Redes Neuronales Convolucionales:** Mejoras en la precisión con arquitecturas personalizadas.
-- **Transfer Learning con EfficientNet:** Precisión final de hasta el 91.8% después de 7 épocas.
+- **Transfer Learning con EfficientNet:** Precisión final de hasta el 91.5% después de 7 épocas.
 
 ### Visualización de Resultados
 
