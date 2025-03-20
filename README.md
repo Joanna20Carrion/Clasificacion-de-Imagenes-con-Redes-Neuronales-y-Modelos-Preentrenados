@@ -109,7 +109,7 @@ class ConvnetClassifier(torch.nn.Module):
         x = x.view(x.size(0), -1)
         x = F.relu(self.linear1(x))
         return self.linear2(x)
-```
+``` 
 
 2. Entrena el modelo con funciones de pérdida y optimizadores adecuados.
 
