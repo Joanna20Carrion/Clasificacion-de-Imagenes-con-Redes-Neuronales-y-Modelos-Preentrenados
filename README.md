@@ -1,5 +1,14 @@
 # Clasificación de Imágenes con Redes Neuronales y Modelos Preentrenados
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white)
+![Torchvision](https://img.shields.io/badge/Torchvision-0.10%2B-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-blueviolet)
+![PIL](https://img.shields.io/badge/PIL-Image%20Processing-red)
+![LivLossPlot](https://img.shields.io/badge/LivLossPlot-Training%20Monitoring-brightgreen)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNNs-brightgreen)
+
 ## Descripción
 Este proyecto se centra en la clasificación de imágenes en diferentes categorías utilizando enfoques de aprendizaje profundo. Incluye el uso de:
 
@@ -11,38 +20,39 @@ El sistema fue entrenado y evaluado con el conjunto de datos SUN20, que incluye 
 
 ---
 
-## Estructura del Proyecto
-1. **Clasificación Lineal:**
-   - Implementación de un clasificador lineal simple.
-   - Entrenamiento utilizando Stochastic Gradient Descent (SGD).
-   - Visualización de resultados iniciales.
+## 🚀 Estructura del Proyecto
 
-2. **Redes Neuronales Convolucionales (CNN):**
-   - Definición de arquitecturas convolucionales personalizadas.
-   - Entrenamiento y evaluación en PyTorch.
+### 1. Clasificación Lineal:
+- Implementación de un clasificador lineal simple.
+- Entrenamiento utilizando Stochastic Gradient Descent (SGD).
+- Visualización de resultados iniciales.
 
-3. **Transfer Learning:**
-   - Ajuste de modelos preentrenados, como EfficientNet.
-   - Optimizaciones para mejorar la precisión en el conjunto de datos SUN20.
+### 2. Redes Neuronales Convolucionales (CNN):
+- Definición de arquitecturas convolucionales personalizadas.
+- Entrenamiento y evaluación en PyTorch.
 
-4. **Exploración y Visualización de Datos:**
-   - Uso de transformaciones en las imágenes.
-   - Visualización de categorías y resultados en cuadrículas.
+### 3. Transfer Learning:
+- Ajuste de modelos preentrenados, como EfficientNet.
+- Optimizaciones para mejorar la precisión en el conjunto de datos SUN20.
+
+### 4. Exploración y Visualización de Datos:
+- Uso de transformaciones en las imágenes.
+- Visualización de categorías y resultados en cuadrículas.
 
 ---
 
-## Tecnologías Utilizadas
+## 🛠 Tecnologías Utilizadas
 
-- **Lenguaje de programación:** Python.
+- **Lenguaje de programación:** ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 - **Bibliotecas principales:**
-  - PyTorch: para la construcción y entrenamiento de modelos.
-  - Torchvision: para el manejo de datos de imagen.
-  - Matplotlib y PIL: para la visualización y manipulación de imágenes.
-  - LivLossPlot: para el monitoreo visual de las curvas de pérdida y precisión durante el entrenamiento.
+  - ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white): Para la construcción y entrenamiento de modelos.
+  - ![Torchvision](https://img.shields.io/badge/Torchvision-0.10%2B-orange): Para el manejo de datos de imagen.
+  - ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-blueviolet) y ![PIL](https://img.shields.io/badge/PIL-Image%20Processing-red): Para la visualización y manipulación de imágenes.
+  - ![LivLossPlot](https://img.shields.io/badge/LivLossPlot-Training%20Monitoring-brightgreen): Para el monitoreo visual de las curvas de pérdida y precisión durante el entrenamiento.
 
 ---
 
-## Configuración del Entorno
+## ⚙️ Configuración del Entorno
 
 ### Requisitos previos
 1. Python 3.8 o superior.
@@ -73,7 +83,7 @@ tar -xzf SUN20-val.tar.gz
 
 ---
 
-## Ejecución del Proyecto
+## 🔥 Ejecución del Proyecto
 
 ### Entrenamiento de Clasificadores Lineales
 1. Configura el dataset y las transformaciones necesarias.
@@ -127,7 +137,7 @@ model.classifier[1] = torch.nn.Linear(num_ftrs, 20)
 
 ---
 
-## Resultados
+## 📊 Resultados
 
 - **Clasificadores Lineales:** Precisión inicial aproximada del 25%.
 - **Redes Neuronales Convolucionales:** Mejoras en la precisión con arquitecturas personalizadas.
@@ -135,16 +145,22 @@ model.classifier[1] = torch.nn.Linear(num_ftrs, 20)
 
 ### Visualización de Resultados
 
-- Gráficos de pérdida y precisión durante el entrenamiento.
-- Visualización de predicciones con imágenes correctamente clasificadas (en verde) y mal clasificadas (en rojo).
+- 📈 Gráficos de pérdida y precisión durante el entrenamiento.
+- 📸 Visualización de predicciones con imágenes correctamente clasificadas (en verde) y mal clasificadas (en rojo).
 
 ---
 
-## Autor
-**Joanna Alexandra Carrión Pérez**: Bachiller de Ingeniería Electrónica. Apasionada por la Ciencia de Datos y la Inteligencia Artificial. [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+## 👤 Autor
+**Joanna Alexandra Carrión Pérez**
 
-## Contacto
+- 🎓 Bachiller de Ingeniería Electrónica
+- 💡 Apasionada por la Ciencia de Datos y la Inteligencia Artificial
+- 🔗 ![LinkedIn](https://img.shields.io/badge/LinkedIn-Joanna%20Carrión%20Pérez-blue?style=flat&logo=linkedin) [LinkedIn](https://www.linkedin.com/in/joanna-carrion-perez/)
+
+---
+
+## 📩 Contacto
 Para cualquier duda o sugerencia, contáctame a través de **joannacarrion14@gmail.com**.
 
-## Contribuciones
-¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request. 
+## 💡 Contribuciones
+¡Contribuciones son bienvenidas! Si tienes ideas o mejoras, no dudes en hacer un fork del repositorio y enviar un pull request. 🚀
