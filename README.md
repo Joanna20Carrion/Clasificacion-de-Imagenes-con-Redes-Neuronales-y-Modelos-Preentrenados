@@ -45,11 +45,11 @@ El sistema fue entrenado y evaluado con el conjunto de datos SUN20, que incluye 
 
 - **Lenguaje de programación:** ![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
 - **Bibliotecas principales:**
-  - ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white): Para la construcción y entrenamiento de modelos.
-  - ![Torchvision](https://img.shields.io/badge/Torchvision-0.10%2B-orange): Para el manejo de datos de imagen.
-  - ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-blueviolet) y ![PIL](https://img.shields.io/badge/PIL-Image%20Processing-red): Para la visualización y manipulación de imágenes.
-  - ![LivLossPlot](https://img.shields.io/badge/LivLossPlot-Training%20Monitoring-brightgreen): Para el monitoreo visual de las curvas de pérdida y precisión durante el entrenamiento.
-
+  - ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=pytorch&logoColor=white) **PyTorch** → Para la construcción y entrenamiento de modelos.
+  - ![Torchvision](https://img.shields.io/badge/Torchvision-0.10%2B-orange) **Torchvision** → Para el manejo de datos de imagen.
+  - ![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-blueviolet) ![PIL](https://img.shields.io/badge/PIL-Image%20Processing-red) **Matplotlib y PIL** → Para la visualización y manipulación de imágenes.
+  - ![LivLossPlot](https://img.shields.io/badge/LivLossPlot-Training%20Monitoring-brightgreen) **LivLossPlot** → Para el monitoreo visual de las curvas de pérdida y precisión durante el entrenamiento.
+    
 ---
 
 ## ⚙️ Configuración del Entorno
